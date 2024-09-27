@@ -1,0 +1,229 @@
+body {
+    background-color: #2a475e;
+    margin-left: auto;
+    margin-right: auto;
+    
+    overflow-x: hidden;
+}
+
+
+h1 {
+    color: #66c0f4;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color: #c7d5e0 ;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Tabela-Preço {
+    color: #c7d5e0 ;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color:#c7d5e0  ;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2 {
+    color: #66c0f4;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  p2 {
+    color: #c7d5e0;
+    text-align:right;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #2a475e;
+    font-family: Arial;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #66c0f4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #66c0f4;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #171a21;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c7d5e0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #171a21;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #c7d5e0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+  * {box-sizing: border-box}
+
+.container {
+  padding: 16px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #66c0f4;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: #c7d5e0;
+}
+
+
+.signin {
+  background-color: #2a475e;
+  text-align: center;
+}
+
+ul.min{
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  color: #c7d5e0 ;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+ul.rec {
+  margin: center;
+  text-align: center;
+  display: inline-block;
+  color: #c7d5e0 ;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.coluna {
+  float:left;
+  width: 33%;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+  
+
+  
+
+
+
